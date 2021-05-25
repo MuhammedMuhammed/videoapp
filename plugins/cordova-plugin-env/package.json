@@ -1,0 +1,77 @@
+{
+  "_from": "cordova-plugin-env",
+  "_id": "cordova-plugin-env@1.1.0",
+  "_inBundle": false,
+  "_integrity": "sha512-faDpA57kVVX4DPS4ozNbYypMTM92tix7X8L1l8f30GZ3EXiMz3lEJ9XBWPtLTdRhVGcECIHuYOYb0dg/yXzhlw==",
+  "_location": "/cordova-plugin-env",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "cordova-plugin-env",
+    "name": "cordova-plugin-env",
+    "escapedName": "cordova-plugin-env",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/cordova-plugin-env/-/cordova-plugin-env-1.1.0.tgz",
+  "_shasum": "f196110a3e022b063f3496b0af6477893001de37",
+  "_spec": "cordova-plugin-env",
+  "_where": "D:\\phoneGap\\videoapp3\\videoapp",
+  "author": {
+    "name": "Erik Brommers"
+  },
+  "bugs": {
+    "url": "https://github.com/adapt-it/cordova-env/issues"
+  },
+  "bundleDependencies": false,
+  "cordova": {
+    "id": "cordova-plugin-env",
+    "platforms": [
+      "android"
+    ]
+  },
+  "deprecated": false,
+  "description": "Cordova Environment plugin",
+  "devDependencies": {
+    "jshint": "^2.6.0",
+    "sync-cordova-xml": "^0.4.0"
+  },
+  "directories": {
+    "doc": "doc",
+    "test": "tests"
+  },
+  "engines": {
+    "cordovaDependencies": {
+      "2.0.0": {
+        "cordova": ">100"
+      }
+    }
+  },
+  "homepage": "https://github.com/adapt-it/cordova-env",
+  "keywords": [
+    "cordova",
+    "ecosystem:cordova",
+    "cordova-android",
+    "plugin",
+    "environment"
+  ],
+  "license": "Apache-2.0",
+  "main": "env.js",
+  "name": "cordova-plugin-env",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adapt-it/cordova-env.git"
+  },
+  "scripts": {
+    "jshint": "node node_modules/jshint/bin/jshint www && node node_modules/jshint/bin/jshint src && node node_modules/jshint/bin/jshint tests",
+    "test": "npm run jshint",
+    "version": "sync-cordova-xml package.json plugin.xml --output plugin.xml && git add plugin.xml"
+  },
+  "version": "1.1.0"
+}

@@ -1,0 +1,17 @@
+{
+  "name": "cordova-plugin-env-tests",
+  "version": "1.0.0",
+  "description": "",
+  "cordova": {
+    "id": "cordova-plugin-env-tests",
+    "platforms": [
+        "android"
+    ]
+  },
+  "keywords": [
+    "ecosystem:cordova",
+    "cordova-android"
+  ],
+  "license": "Apache-2.0",
+  "author": "Erik Brommers"
+}
